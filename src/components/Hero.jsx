@@ -1,10 +1,14 @@
 import React from 'react'
+import {motion} from 'framer-motion';
+import {styles} from '../styles'
+import {ComputerCanvas} from './canvas';
+
 
 const Hero = () => {
   return (
-    <div>
+    <section className='relative w-full h-screen mx-auto'>
       Hero
-    </div>
+    </section>
   )
 }
 
