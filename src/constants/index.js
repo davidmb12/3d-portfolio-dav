@@ -15,14 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    allegion,
+    caracol,
     carrent,
     jobit,
     tripguide,
     threejs,
+    odoo,
+    dilato,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "3D Modeler",
       icon: creator,
     },
   ];
@@ -116,9 +116,9 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "C# Developer",
+      company_name: "Allegion",
+      icon: allegion,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -129,10 +129,10 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      title: "Flutter developer",
+      company_name: "Museo de Ciencias Caracol",
+      icon: caracol,
+      iconBg: "#fff",
       date: "Jan 2021 - Feb 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -142,10 +142,10 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
+      title: "Full Stack Software Developer",
+      company_name: "Odoo",
+      icon: odoo,
+      iconBg: "#a190ad",
       date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -155,10 +155,10 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Software QA Engineer",
       company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      icon: dilato,
+      iconBg: "#000",
       date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
