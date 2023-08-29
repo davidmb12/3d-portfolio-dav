@@ -190,20 +190,20 @@ import {
   
   const projects = [
     {
-      name: "",
+      name: "Frost Freak",
       description:
-        "",
+        "A first person shooter zombie survival demo game made in unity, 1rst place earner in EXPO Ingenieria at CETYS Universidad",
       tags: [
         {
-          name: "react",
+          name: "unity",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "3d",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Blender",
           color: "pink-text-gradient",
         },
       ],
@@ -211,16 +211,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "",
+      name: "Museo Caracol App",
       description:
-        "",
+        "General purpose museum mobile app for buying tickets, get latest news and exhibitions at Caracol Museo de Ciencias.",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
