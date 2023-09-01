@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo5, menu, close } from '../assets';
+import { Tilt } from 'react-tilt';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -17,7 +18,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo5} className='w-20 h-20 object-contain' alt="" />
+          <Tilt>
+            <img src={logo5} className='w-20 h-20 object-contain' alt="" />
+
+          </Tilt>
           <p className='text-white text-[18px] font-bold cursor-pointer'>David <span className='sm:block hidden'>| Software Dev</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

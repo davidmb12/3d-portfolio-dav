@@ -23,6 +23,11 @@ import {
     threejs,
     odoo,
     dilato,
+    frostFreak,
+    caracolApp,
+    transfer,
+    itchio,
+    github
   } from "../assets";
   
   export const navLinks = [
@@ -207,8 +212,24 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: frostFreak,
+      codeLinks: [
+        {
+          name: "github",
+          color: "blue-text-gradient",
+          icon:github,
+          source:"https://github.com/"
+
+        },
+        
+        {
+          name: "itchio",
+          color: "pink-text-gradient",
+          icon:itchio,
+          source:"https://itch.io"
+        },
+      ],
+        
     },
     {
       name: "Museo Caracol App",
@@ -228,11 +249,36 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: caracolApp,
+      codeLinks: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+          icon:itchio,
+          source:"https://itch.io"
+
+
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+          icon:itchio,
+          source:"https://itch.io"
+
+
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+          icon:itchio,
+          source:"https://itch.io"
+
+
+        },
+      ],
     },
     {
-      name: "",
+      name: "Crypto Currency Transfer",
       description:
         "",
       tags: [
@@ -249,8 +295,32 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: transfer,
+      codeLinks: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+          icon:itchio,
+          source:"https://itch.io"
+
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+          icon:itchio,
+          source:"https://itch.io"
+
+
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+          icon:itchio,
+          source:"https://itch.io"
+
+
+        },
+      ],
     },
   ];
   

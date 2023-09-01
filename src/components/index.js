@@ -6,7 +6,6 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
-import StarsCanvas from './StarsCanvas';
 import CanvasLoader from './Loader';
 
 export {
@@ -18,6 +17,5 @@ export {
   Works,
   Feedbacks,
   Contact,
-  StarsCanvas,
   CanvasLoader
 }

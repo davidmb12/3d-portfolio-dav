@@ -30,7 +30,16 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import logo5 from './logo5.svg';
+
+import frostFreak from './frost-freak.jpg';
+import caracolApp from './thumbMuseoCaracolApp.png';
+import transfer from './thumbTransfer.png';
+import itchio from './itchio.png'
 export {
+  itchio,
+  frostFreak,
+  caracolApp,
+  transfer,
   logo5,
   logo,
   backend,
