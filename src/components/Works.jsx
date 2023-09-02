@@ -25,6 +25,7 @@ const ProjectCard = ({ index, name, description, tags, image, codeLinks }) => {
 
           {codeLinks.map((link) => (
             <div
+              key={link.name}
               onClick={() => window.open(link.source, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
