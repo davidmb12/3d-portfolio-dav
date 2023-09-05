@@ -125,12 +125,11 @@ import {
       company_name: "Allegion",
       icon: allegion,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2021 - September 2021",
       points: [
-        "",
-        "",
-        "",
-        "",
+        "Maintenance and documentation of source code for the production environment",
+        "Development of a web application for Drag n Drop label editing using ASP.NET Razor.",
+        "Code refactoring",
       ],
     },
     {
@@ -138,10 +137,11 @@ import {
       company_name: "Museo de Ciencias Caracol",
       icon: caracol,
       iconBg: "#fff",
-      date: "Jan 2021 - Feb 2022",
+      date: "October 2021 - March 2022",
       points: [
-        "",
-        
+        "Development of a web application for museum employees to log their shift",
+        "Develpoment of a multi-purpose mobile app (Flutter SDK) which allows users to buy museum tickets, be notified on new events and exhibitions offered by the museum.",
+        "Development of an AR mobile app (Unity) that allows users to see 3D models of animals and natural phenomena from museum exhibitions, enabling users to engage more and have a more immersive experience"
       ],
     },
     {
@@ -149,19 +149,21 @@ import {
       company_name: "Odoo",
       icon: odoo,
       iconBg: "#a190ad",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2022 - November 2022",
       points: [
-        "",
+        "Development of modifications to the Odoo ERP (Python, XML) system based on customer requests.",
+        "Fixing and refactoring code base"
       ],
     },
     {
       title: "Software QA Engineer",
-      company_name: "Meta",
+      company_name: "Dilato",
       icon: dilato,
       iconBg: "#000",
-      date: "Jan 2023 - Present",
+      date: "June 2023 - Present",
       points: [
-        ""
+        "Software QA working with Adobe",
+        "Creation and execution of test cases",
       ],
     },
   ];
